@@ -1,5 +1,7 @@
 const nodemailer = require("nodemailer");
 const env = require("./env.config");
+console.log("env", env);
+
 
 
 function createTransporter() {
