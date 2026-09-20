@@ -1,0 +1,31 @@
+{
+  "name": "smtp-email-server",
+  "version": "1.0.0",
+  "description": "Simple and robust Node.js SMTP email server with REST API and Nodemailer integration",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test:email": "node test-send.js",
+    "smtp:receiver": "node local-smtp-server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "smtp",
+    "nodemailer",
+    "email",
+    "express",
+    "contact-form"
+  ],
+  "author": "Mohamadhu Ashik S",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemailer": "^6.10.0"
+  },
+  "devDependencies": {
+    "smtp-server": "^3.13.6"
+  }
+}
